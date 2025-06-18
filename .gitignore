@@ -1,0 +1,102 @@
+########################################
+# .NET Core build outputs
+########################################
+bin/
+obj/
+out/
+publish/
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.db
+*.log
+
+########################################
+# ASP.NET & Web specifics
+########################################
+wwwroot/
+node_modules/
+dist/
+build/
+.env
+*.env.*
+*.local
+secrets.json
+
+########################################
+# Entity Framework
+########################################
+**/Migrations/
+
+########################################
+# User & IDE-specific files
+########################################
+
+# VS Code
+.vscode/
+.history/
+
+# Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vsp
+*.vspx
+*.vspscc
+*.vssscc
+*.ncb
+*.psess
+*.pdb
+*.cache
+*.dbmdl
+*.bak
+*.vs/
+.vsconfig
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+.idea_modules/
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/.idea.WebServers.xml
+.idea/dictionaries
+.idea/httpRequests
+
+########################################
+# OS-generated files
+########################################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+########################################
+# Logs and debug
+########################################
+*.log
+logs/
+*.tlog
+*.vshost.*
+*.orig
+
+########################################
+# Docker
+########################################
+docker-compose.override.yml
+
+########################################
+# Temporary/Backup files
+########################################
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Recycle bin (Linux/macOS)
+.trash/
